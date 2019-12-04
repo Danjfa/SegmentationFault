@@ -54,7 +54,7 @@ namespace Study_Now
         public void OnDateSet(DatePicker view, int y, int m, int d)
         {
             this.year = y;
-            this.month = m;
+            this.month = m+1;
             this.day = d;
             Toast.MakeText(this, "You have selected: " + day + "/" + month + "/" + year, ToastLength.Short).Show();
         }
