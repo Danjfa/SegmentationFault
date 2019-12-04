@@ -1,0 +1,35 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+
+     <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+    </CalendarView>
+    <Button
+        android:text="Add Event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:background = "#1D2126"
+        android:textColor="#D98D30" />
+    <Button
+        android:text="Delete Event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:background = "#1D2126"
+        android:textColor="#D98D30"/>
+    
+</LinearLayout>
+
+
